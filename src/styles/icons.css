@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "skillmill-icons";
+  src:  url('./../assets/icons/skillmill-icons.eot?5wa0ua');
+  src:  url('./../assets/icons/skillmill-icons.eot?5wa0ua#iefix')           format('embedded-opentype'),
+        url('./../assets/icons/skillmill-icons.ttf?5wa0ua')                 format('truetype'),
+        url('./../assets/icons/skillmill-icons.woff?5wa0ua')                format('woff'),
+        url('./../assets/icons/skillmill-icons.svg?5wa0ua#skillmill-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "skillmill-icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: "\2c2";
+}
+
+.icon-arrow-right:before {
+  content: "\2c3";
+}
+
+.icon-close:before {
+  content: "\2573";
+}
