@@ -1,7 +1,7 @@
 {
   "name": "vue-carousel-bug-demo",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Demo for `vue-carousel` issue 223",
   "author": "Pavel Lysenko <code@ohar.name>",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-carousel": "^0.9.0"
+    "vue": "2.5.16",
+    "vue-carousel": "0.9.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
